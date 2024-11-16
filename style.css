@@ -1,0 +1,99 @@
+body{
+    counter-reset: mycounter; 
+}
+#questions{
+    counter-increment: mycounter;
+}
+#questions::before{
+    content:counter(mycounter)".";
+    font-weight: bold;
+    color: #555;
+}
+.container{
+   counter-reset: mycounter1;
+}
+/* 
+content start here */
+#qs1{
+    counter-increment: mycounter1; 
+}
+#qs1::before{
+    content: "1." counter(mycounter1);
+    font-weight: bold;
+    color: #555;
+}
+#qs2{
+    counter-increment: mycounter2; 
+}
+#qs2::before{
+    content: "2." counter(mycounter2)".";
+    font-weight: bold;
+    color: #555;
+}
+#qs3{
+    counter-increment: mycounter3; 
+}
+#qs3::before{
+    content: "3." counter(mycounter3)".";
+    font-weight: bold;
+    color: #555;
+}
+
+#qs4{
+    counter-increment: mycounter4; 
+}
+#qs4::before{
+    content: "4." counter(mycounter4)".";
+    font-weight: bold;
+    color: #555;
+}
+
+#qs5{
+    counter-increment: mycounter5; 
+}
+#qs5::before{
+    content: "5." counter(mycounter5)".";
+    font-weight: bold;
+    color: #555;
+}
+
+#qs6{
+    counter-increment: mycounter6; 
+}
+#qs6::before{
+    content: "6." counter(mycounter6)".";
+    font-weight: bold;
+    color: #555;
+}
+#qs7{
+    counter-increment: mycounter7; 
+}
+#qs7::before{
+    content: "7." counter(mycounter7)".";
+    font-weight: bold;
+    color: #555;
+}
+#qs8{
+    counter-increment: mycounter8; 
+}
+#qs8::before{
+    content: "8." counter(mycounter8)".";
+    font-weight: bold;
+    color: #555;
+}
+#qs9{
+    counter-increment: mycounter9; 
+}
+#qs9::before{
+    content: "9." counter(mycounter9)".";
+    font-weight: bold;
+    color: #555;
+}
+#qs10{
+    counter-increment: mycounter10; 
+}
+#qs10::before{
+    content: "10." counter(mycounter10)".";
+    font-weight: bold;
+    color: #555;
+}
